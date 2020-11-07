@@ -1,0 +1,31 @@
+
+API Automation Case Study
+
+Create a maven project named as “ SDETAPIAutonamation”
+Tools/libs Required:
+-	Rest Assured libraries (create dependency in pom.xml)
+-	TestNG
+-	Eclipse 3+
+-	Java 8
+Base URL: http://postman-echo.com
+
+Get Request:  http://postman-echo.com/get?foo1=bar1&foo2=bar2
+
+
+Post Request:  http://postman-echo.com/post
+Send Body as – json
+This is expected to be sent back as part of response body
+
+Put Request : http://postman-echo.com/put
+Send Body as – json
+This is expected to be sent back as part of response body
+
+Delete Request : http://postman-echo.com/delete
+Send Body as – json
+This is expected to be sent back as part of response body
+
+This scenario will cover below features:
+Rest API knowledge
+All request like POST, GET, PUT and Delete
+Rest Assured Framework
+
